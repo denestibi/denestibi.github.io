@@ -1,0 +1,138 @@
+
+
+Blokk szintű elemek:
+
+A blokk szintű elemek mindig új sorban kezdődnek, és akkor sem kerülnek másik elem mellé, ha amúgy elférnének tőle. Azaz előttük utánuk sortörés van és általában nagyobb margóval rendelkeznek, távolabb vannak a többi elemtől.
+
+Inline elemek:
+
+Mivel minden elem ami nem blokk szintű inline, ezért ezeket külön nem sorolnám fel. Amit meg kell róluk jegyezni, hogy sorban egymás mellé teszi őket a böngésző, egészen addig amíg kiférnek. Ha már nem, akkor egy új sorban folytatja a megjelenítésüket.
+
+Dokumentáció
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+
+
+
+Chrome Devtools:
+
+Megnyitás: F12
+
+A Chrome Devtools segít neked abban, hogy át tudd tekinteni az alkalmazásod felépítését, vagy mag tudd keresni a hibákat. Ha hibásan működik valami, semmiképp sem szabad megijedni. Meg kell nyitni a megfelelő fejlesztőeszközt és megkeresni a hiba forrását. A hibákból mindig tanulunk valamit, így azok hasznosak a számunkra.
+
+
+
+URL - Uniform Resource Locator:
+
+A tartalmak az interneten bárhol lehetnek. Hogyan találjuk meg őket? Ehhez kell az url, ha ismerjük az adott oldal vagy kép vagy film vagy bámi url -jét, akkor a böngészőbe beírva meg tudod nézni vagy le tudod tölteni. 
+
+Fontos, hogy minden erőforrásnak legyen egyedi azonosítója. Erre való az url.
+
+Az url részei:
+
+    Egy példa: https://www.training360.com/tanfolyami-naptar
+    A https a használandó protokoll. A protokoll neve után kettőspont (:) írandó.
+    A training360.com a célgép tartományneve. Ez elé két perjel (//) írandó.
+    A 443 a célgép azon hálózati portszáma, amin kérésünket várja; ez elé kettőspont (:) írandó. Ezt a részt gyakran teljesen elhagyhatjuk, például esetünkben a HTTPS protokoll alapértelmezett portszáma a 443.
+    A /tanfolyami-naptar a kért elérési út a célgépen. Ez a rész mindig a perjellel (/) kezdődik.
+
+
+
+
+Listák:
+
+Felsorolások megjelenítésére használhatod.
+
+UL - Unordered List:
+
+Elem: <ul></ul>
+
+Lista elemei: <li></li>
+
+OL - Ordered list:
+
+Elem: <ol></ol>
+
+Lista elemei: <li></li>
+
+Dokumentáció:
+
+https://www.w3schools.com/tags/tag_ul.asp
+
+https://www.w3schools.com/tags/tag_ol.asp
+
+https://www.w3schools.com/tags/tag_dl.asp
+
+
+
+Image elem:
+
+Elem: <img>
+
+Képek megjelenítésére való. Self closed elem, azaz a végére nem kell másik </img> tag. Az src attribútum adja meg, hogy honnan kerüljön a kép betöltésre.
+
+A képek méretezése és alakítása már kicsit bonyolultabb dolog, amikor a CSS formázásokat vesszük, majd kitérek rá.
+
+Dokumentáció:
+
+https://www.w3schools.com/tags/tag_img.asp
+
+
+
+
+Az xml jellegű struktúrák lényege, hogy az elemeket egymásba lehet ágyazni. Így már beszélhetünk szülő és gyermek elemekről, aszerint, hogy melyik elem melyikbe van beágyazva.
+
+Dokumentáció:
+
+https://www.w3schools.com/html/html_elements.asp
+
+
+
+Table elem:
+
+Elem: <table></table>
+
+A táblázatokat strukturált adatokhoz használjuk. Vannak sorok, oszlopok, és általában ugyanazok az adatok szerepelnek minden sorban.
+
+Dokumentáció:
+
+https://www.w3schools.com/html/html_tables.asp
+
+
+
+Egy táblázat olyan mint egy Excel tábla. Sorokból és oszlopokból áll, ezek találkozásánál vannak az adatcellák. Mindegyikhez vannak külön HTML elemek:
+
+Fejléc: <thead></thead>
+
+Sor: <tr></tr>
+
+Fejléc cella: <th></th>
+
+Cella: <td></td>
+
+Dokumentáció:
+
+https://www.w3schools.com/tags/tag_table.asp
+
+
+
+Rowspan és Colspan:
+
+A nevükből adódóan sorok és oszlopok összevönására valók. Ezek attribútumok, tehát nem önálló elemek, hanem a td vagy a th elem tulajdonságai.
+
+Dokumentáció:
+
+https://www.w3schools.com/tags/att_td_rowspan.asp
+
+https://www.w3schools.com/tags/att_td_colspan.asp
+
+
+
+
+Publikálás:
+
+Ahhoz, hogy az emberek meg tudják nézni a webalkalmazásodat, szerverre van szükséged. Ha ilyennel nem rendelkezel, használhatsz felhő szolgáltatást is, sok cég kínál ingyenes tárhelyet. Mi a github pages nevűt használjuk a videóban, de lényeges különbség nincs közöttük abból a szempontból, hogy fel kell tölteni a fájlokat és rájuk mutatni egy url -el, ezután az emberek elérik az alkalmazást.
+
+Dokumentáció:
+
+https://help.github.com/en/github/working-with-github-pages
